@@ -1,20 +1,27 @@
 import './App.css';
-import ButtonListWithMap from './buttonListWithMap';
-import Profile from './profile';
-import Profile2 from './profile2';
-import Profile3 from './profile3';
-import Profile4 from './profile4';
+import ButtonWithClass from './buttonWithClass';
+import ButtonWithHook from './buttonWithHook';
 
 
+/*
+const obj1 = {
+  key1: "random stuff",
+  key2: obj3
+}
+const obj2 = {
+  key1: "random stuff 2",
+  key2: obj3
+}
+const obj3 = {
+  key1: "random stuff 3",
+}
+*/
 
 function App() {
-  return (
+return (
     <div className="App">
-      <ButtonListWithMap />
-      <Profile />
-      <Profile2 />
-      <Profile3 />
-      <Profile4 />
+      <ButtonWithClass />
+      <ButtonWithHook />
     </div>
   );
 }
